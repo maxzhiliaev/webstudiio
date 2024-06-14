@@ -1,0 +1,188 @@
+            :root {
+                --main-text-color: #757575;
+                --accent-color: #2196f3;
+                --white-color: #ffffff;
+                --black-titel-color: #212121; 
+                --grey-light-bcg-color:#2f303a;
+                --button-bcg-color: #f5f4fa ;
+                --adress-footer-color:#ffffffb3;
+            }
+             
+            .hero {
+               background-color: var( --grey-light-bcg-color);
+            }
+            .hero-button:hover{
+                background-color: var(--accent-color);
+                color:var(--white-color);
+            }
+            .hero-button {
+                background-color: var(--button-bcg-color);
+                color:var(--black-titel-color);
+            }
+            
+            
+                      
+            h1 {
+                color: var( --white-color);
+            }
+            h2 {
+                color: var(--black-titel-color);
+            }
+            h3 {
+                color: var(--black-titel-color);
+            }
+            .advantages-title{
+                color: var(--white-color);
+            }
+            
+            
+            .header-logo{
+                text-decoration: none; 
+                color: var(--black-titel-color);
+            }
+            .footer-logo{
+                text-decoration: none;
+                color: var(--white-color);
+            }
+            .footer-URL {
+                color: var(--white-color);
+                text-decoration: none;
+            }
+            .footer-URL:hover{
+                color: var(--accent-color);
+                text-decoration: none;
+            }
+            footer {
+                background-color: var( --grey-light-bcg-color);
+            }
+            .footer-link{
+                color: var(--adress-footer-color);
+                text-decoration: none;
+            }
+            .footer-link:hover{
+                color: var(--accent-color);
+                text-decoration: none;
+            }
+            .header-link:hover{
+                color: var(--accent-color);
+                text-decoration: none;
+            }
+            .header-link{
+                color: var(--main-text-color);
+                text-decoration: none;
+            }
+            .header-page {
+                color:var(--black-titel-color);
+                text-decoration: none;
+            }
+            .header-page:hover{
+                color:var(--accent-color);
+                text-decoration: none;
+            }
+            .team {
+                background-color: var(--button-bcg-color);
+            }
+            .portfolio-element:hover{
+                background-color: var(--accent-color);
+                color: var( --white-color);
+            }
+            .portfolio-element {
+                background-color: var(--button-bcg-color);
+                color: var(--black-titel-color);
+            }
+            p {
+                color: var(--main-text-color);
+            }
+            
+        
+            
+            body{
+                font-family: "Roboto", sans-serif;
+            
+            }
+            
+            
+            
+            .header-logo{
+                font-family: "Raleway", sans-serif;
+                font-weight: 700;
+                line-height: 1.2;
+                font-size: 26px;
+            }                 
+            .hero-title{
+                font-weight: 900;
+                text-align: center;
+                line-height: 1.4;
+                font-size: 44px;
+            }
+            .team-title{
+                font-weight: 700;
+                text-align: center;
+                line-height: 1.2;
+                font-size: 36px;
+            }
+            .work-title{
+                font-weight: 700;
+                text-align: center;
+                line-height: 1.2;
+                font-size: 36px;
+            }
+            .advantages-subtitle{
+                font-weight: 700;
+                line-height: 1.14;
+                font-size: 14px;
+            }
+            .hero-button{
+                font-weight: 700;
+                line-height: 1.8;
+                font-size: 16px;
+            }
+            .team-subtitle{
+                font-weight: 500;
+                line-height: 1.2;
+                font-size: 16px;
+            }
+            p{
+                font-weight: 400;
+            }
+            .header-nav{
+                font-weight: 500;
+                line-height: 1.14;
+                font-size: 14px;
+            }
+            .footer-address{
+                font-weight: 400;
+                line-height: 1.7;
+                font-size: 14px;
+            }
+            .portfolio-subtitle{
+                font-weight: 700;
+                line-height: 2;
+                font-size: 18px;
+            }
+            .portfolio-element{
+                font-weight: 500; 
+                line-height: 1.6;
+                font-size: 16px; ;
+            }
+            .footer-logo{
+                font-family:"Raleway", sans-serif;
+                font-weight: 700;
+                line-height: 1.2;
+                font-size: 26px;
+            }
+            .info-text{
+                font-weight: 400;
+                line-height: 1.7;
+                font-size: 14px;
+            }
+            .team-text{
+                font-weight: 400;
+                line-height: 1.2;
+                font-size: 16px;
+            }
+            .portfolio-text{
+                font-weight: 400;
+                line-height: 1.8;
+                font-size: 16px;
+            }
